@@ -35,8 +35,7 @@ for i, product_lines in enumerate(product_lines_group):
     find_product_name = False
     product_name = ""
 
-    for j, product_line in enumerate(product_lines):        
-        
+    for j, product_line in enumerate(product_lines):
         first_column = product_line[: column_letter_count].strip()
 
         if first_column == "Productgroep":
